@@ -424,8 +424,9 @@ const Portfolio = () => {
                     View Experience
                   </button>
                   <a
-                    href="/Aishwarya_Singh_Updated_Resume.pdf"
-                    download
+                    href="https://aishwaryafolio.netlify.app/Aishwarya_Singh_Updated_Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="px-6 py-3 md:px-8 md:py-4 border-2 border-yellow-500 text-yellow-500 rounded-full hover:bg-yellow-500 hover:text-black transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 text-sm md:text-base"
                   >
                     <Download size={20} />
