@@ -49,17 +49,6 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme, activeSection, scr
                     <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-yellow-400 to-yellow-600"></div>
                   )}
                 </button>
-                {item === 'Experience' && (
-                  <Link 
-                    to="/social-media-portfolio" 
-                    className={`hover:text-yellow-500 transition-colors duration-200 relative font-medium whitespace-nowrap ${location.pathname === '/social-media-portfolio' ? 'text-yellow-500' : ''}`}
-                  >
-                    Social Media Handles
-                    {location.pathname === '/social-media-portfolio' && (
-                      <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-yellow-400 to-yellow-600"></div>
-                    )}
-                  </Link>
-                )}
               </React.Fragment>
             ))}
           </div>
@@ -95,15 +84,6 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme, activeSection, scr
                 >
                   {item}
                 </button>
-                {item === 'Experience' && (
-                  <Link 
-                    to="/social-media-portfolio"
-                    onClick={() => setIsMenuOpen(false)}
-                    className="block w-full text-left px-3 py-2 text-base font-medium hover:text-yellow-500 transition-colors"
-                  >
-                    Social Media Handles
-                  </Link>
-                )}
               </React.Fragment>
             ))}
           </div>
