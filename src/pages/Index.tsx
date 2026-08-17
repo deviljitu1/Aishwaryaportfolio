@@ -247,7 +247,7 @@ const Portfolio = () => {
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
 
     // Open default mail client
-    window.location.href = `mailto:srivastavakirann012@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:aishwaryasingh.digitalmarketer@gmail.com?subject=${subject}&body=${body}`;
 
     toast({
       title: "Opening email client...",
@@ -362,9 +362,9 @@ const Portfolio = () => {
 
   const experiences = [
     {
-      title: "Digital Marketing Manager @ ORGALIFE (Dec 2023 - Present)",
-      description: "Managed social media platforms, content strategy, and audience engagement. Executed Meta Ads, WhatsApp marketing, and product launch campaigns. Planned content calendars and managed influencer marketing, barter collaborations, and brand partnerships. Managed day-to-day e-commerce and digital marketing operations. Designed social media creatives, ad graphics, and promotional materials. Managed SEO activities and optimized Google Business Profile (GMB) to improve online visibility and local search performance.",
-      tools: ["Meta Ads", "WhatsApp Marketing", "Graphic Design", "SEO"],
+      title: "Digital Marketing Executive / Lead Generation Specialist @ Mihusoft Technologies (Jan 2026 - Present)",
+      description: "Collected and verified contact information of potential clients through market research. Generated qualified leads for website development, SEO, digital marketing, and software services. Planned, created, and managed Meta Ads campaigns for lead generation and brand awareness. Assisted in creating and optimizing Google Ads campaigns to improve online visibility.",
+      tools: ["Lead Gen", "Meta Ads", "Google Ads", "Market Research"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
       liveLink: "#",
       category: "work-experience",
@@ -372,9 +372,9 @@ const Portfolio = () => {
       mediaType: "image"
     },
     {
-      title: "Social Media Executive @ CHOUHAN HOUSING (May 2023 - Nov 2023)",
-      description: "Managed Instagram, Facebook, and Youtube accounts to increase brand awareness and engagement. Planned and executed social media content and marketing campaigns. Designed graphics, posts, banners, and promotional creatives for digital platforms. Created and edited reels and visual content for property promotions. Generated leads through social media campaigns and optimized performance. Monitored insights and prepared reports to improve campaign results.",
-      tools: ["Instagram", "Facebook", "Youtube", "Lead Gen", "Reporting"],
+      title: "Digital Marketing Executive / Graphic Designer @ Freelancing for Dr. Kumarabaran & Kumar (Oct 2024 - Jan 2026)",
+      description: "Planned and executed educational content strategies focused on digestive, liver, and gut health. Wrote SEO-optimized blogs to improve website visibility and patient education. Created engaging social media posts, captions, and hashtag strategies aligned with medical guidelines.",
+      tools: ["Content Strategy", "SEO Blogging", "Graphic Design", "Social Media"],
       image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&h=600&fit=crop",
       liveLink: "#",
       category: "work-experience",
@@ -382,101 +382,49 @@ const Portfolio = () => {
       mediaType: "image"
     },
     {
-      title: "Digital Marketing Executive @ GATE ACADEMY X UNACADEMY (Apr 2022 - Apr 2023)",
-      description: "Managed social media platforms and YouTube channel operations. Executed Meta Ads campaigns to drive leads and conversions. Designed social media creatives, thumbnails, and ad graphics. Implemented SEO strategies to improve website visibility and rankings. Analyzed campaign performance and optimized marketing efforts.",
-      tools: ["YouTube", "Meta Ads", "SEO"],
+      title: "Graphic Designer / Video Editor @ Shubham Bibave Technologies & Media (Sep 2023 - Sep 2024)",
+      description: "Designed social media creatives and reels for healthcare services. Created promotional graphics supporting digital marketing campaigns. Collaborated with marketing teams to improve brand awareness and engagement.",
+      tools: ["Video Editing", "Graphic Design", "Reels", "Creative Design"],
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
       liveLink: "#",
       category: "work-experience",
       subCategory: "executive",
-      mediaType: "image"
-    },
-    {
-      title: "Social Media Manager @ GENIQUE EDUCATION (Sept 2020 - Mar 2022)",
-      description: "Managed and grew social media accounts across Facebook, Instagram, LinkedIn, and Twitter. Handled YT channel management, including content planning, video SEO, thumbnails, & audience engagement. Designed creative graphics for posts, stories, ads, and promotional campaigns. Analyzed performance insights and implemented strategies to improve reach and engagement. Collaborated with teams to create effective digital marketing campaigns.",
-      tools: ["Social Media", "Video SEO", "Analytics"],
-      image: "https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=800&h=600&fit=crop",
-      liveLink: "#",
-      category: "work-experience",
-      subCategory: "management",
-      mediaType: "image"
-    },
-    {
-      title: "Rajim Kumbh (Jan 2026 - Feb 2026)",
-      description: "Managed end-to-end social media marketing for the event. Planned and executed content calendars across digital platforms. Designed promotional creatives, posters, and campaign graphics. Increased event visibility through engaging social media campaigns. Coordinated with the team to ensure timely campaign execution.",
-      tools: ["Content Calendar", "Design", "Event Marketing"],
-      image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop",
-      liveLink: "#",
-      category: "project-based",
-      subCategory: "marketing",
-      mediaType: "image"
-    },
-    {
-      title: "Rashtriye Kavi Sammelan (Jan 2026)",
-      description: "Planned and managed social media promotions for the event. Designed digital creatives and promotional content. Executed content strategy to maximize audience engagement. Coordinated with organizers for campaign planning.",
-      tools: ["Social Media", "Graphic Design", "Content Strategy"],
-      image: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&h=600&fit=crop",
-      liveLink: "#",
-      category: "project-based",
-      subCategory: "marketing",
-      mediaType: "image"
-    },
-    {
-      title: "Saras Mela (Feb 2024)",
-      description: "Managed social media platforms and event promotions. Designed banners, posters, and promotional creatives. Created engaging content to increase audience reach. Maintained consistent branding across digital channels. Supported online marketing activities throughout the event.",
-      tools: ["Graphic Design", "Social Media", "Branding"],
-      image: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=800&h=600&fit=crop",
-      liveLink: "#",
-      category: "project-based",
-      subCategory: "design",
       mediaType: "image"
     }
   ];
 
   const skills = {
     frontend: [
-      { name: "Content Creation", level: 95, icon: "✍️" },
-      { name: "Graphic Design", level: 90, icon: "🎨" },
-      { name: "Email Marketing", level: 88, icon: "📧" },
-      { name: "Campaign Planning", level: 85, icon: "📅" },
-      { name: "Marketing Automation", level: 90, icon: "🤖" },
-      { name: "E-commerce Marketing", level: 82, icon: "🛒" }
+      { name: "Graphic Design", level: 95, icon: "🎨" },
+      { name: "Content Creation", level: 90, icon: "✍️" },
+      { name: "Canva", level: 88, icon: "🖼️" },
+      { name: "Blogging", level: 85, icon: "📝" },
+      { name: "WordPress", level: 90, icon: "🌐" },
+      { name: "AI Prompting", level: 82, icon: "🤖" }
     ],
     marketing: [
-      { name: "Social Media Mgt", level: 95, icon: "📱" },
-      { name: "Meta Ads Manager", level: 92, icon: <img src={metaIcon} alt="Meta" className="w-5 h-5" /> },
-      { name: "SEO Optimization", level: 88, icon: "🔍" },
-      { name: "Digital Strategy", level: 90, icon: "📈" },
-      { name: "Influencer Marketing", level: 85, icon: "🤝" },
-      { name: "Google Analytics", level: 87, icon: "📊" }
+      { name: "Lead Generation", level: 95, icon: "🎯" },
+      { name: "Meta Ads", level: 92, icon: <img src={metaIcon} alt="Meta" className="w-5 h-5" /> },
+      { name: "Google Ads", level: 88, icon: "📊" },
+      { name: "SEO & SEM", level: 90, icon: "🔍" },
+      { name: "Market Research", level: 85, icon: "📈" },
+      { name: "Email Marketing", level: 87, icon: "📧" }
     ],
     soft: [
-      { name: "Meta Business Suite", level: 93, icon: <img src={metaIcon} alt="Meta" className="w-5 h-5" /> },
-      { name: "YouTube Studio", level: 88, icon: "▶️" },
-      { name: "Canva & Photoshop", level: 90, icon: "🖼️" },
-      { name: "Shopify", level: 80, icon: <img src={shopifyIcon} alt="Shopify" className="w-5 h-5" /> },
-      { name: "SEMrush & Yoast", level: 85, icon: "🎯" }
+      { name: "Prospect Research", level: 93, icon: "🔎" },
+      { name: "Keyword Research", level: 88, icon: "🔑" },
+      { name: "LinkedIn Outreach", level: 90, icon: "💼" },
+      { name: "CRM Management", level: 80, icon: "🤝" },
+      { name: "MS Office", level: 85, icon: "📊" }
     ]
   };
 
   const certifications = [
-    { name: "Bachelor of Commerce", issuer: "Sri Agrasen Kanya Mahavialaya, Korba, Chhattisgarh", year: "2026" },
-    { name: "Digital Marketing Course", issuer: "Bizgurukul (Online)", year: "October 2022" }
+    { name: "B.A. (Honours) English", issuer: "Prayagraj, Uttar Pradesh", year: "July 2022 - July 2025" },
+    { name: "Digital Marketing & Graphic Design", issuer: "Udemy (Multiple Courses)", year: "Completed" }
   ];
 
-  const managedAccounts = [
-    { name: "Orgalife Food", url: "https://www.instagram.com/orgalifefood?igsh=MTRhdGk2YWVwbHVjMw==" },
-    { name: "Chouhan Housing", url: "https://www.instagram.com/chouhan_housing_commercial?igsh=bDM3bnM2MmFtb2Iw" },
-    { name: "Gate Academy", url: "https://www.instagram.com/gate_acadmey?igsh=MTJzcDIycmQ0NTIxZw==" },
-    { name: "Genique Education", url: "https://www.instagram.com/geniqueeducation?igsh=Y2ZrNWh0Zm1lMTk2" },
-    { name: "Ethos Link", url: "https://www.instagram.com/ethoslinksolutions?igsh=MXZvemc2MHluOGNxNQ==" },
-    { name: "Harmoniq Studio", url: "https://www.instagram.com/harmoniq.studioz?igsh=YXJpMnM2bnV5bm42" },
-    { name: "Imperial Fitness", url: "https://www.instagram.com/imperial_fitness01?igsh=ZWJuYWUzbmZ2b2g1" },
-    { name: "Rajim Kumbh 2026", url: "https://www.instagram.com/rajimkumbhkalp2026?igsh=MTFkeGMzaXh3c2Y2ag==" },
-    { name: "Vedas Institute", url: "#" },
-    { name: "Chhattisgarhi Agrwal Samaj", url: "https://www.instagram.com/cgdauagrawalsamaj?igsh=MTV1NGtndGVrdDhyNg==" },
-    { name: "Saras Mela 2024", url: "#" }
-  ];
+  const managedAccounts: any[] = [];
 
   // Filter projects based on selected categories
   const filteredProjects = projects.filter(project => {
@@ -508,7 +456,7 @@ const Portfolio = () => {
                   <div className="w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 shadow-2xl hover:scale-105 transition-transform duration-300">
                     <img
                       src={kiranProfile}
-                      alt="Kiran Srivastava - Digital Marketing Professional"
+                      alt="Aishwarya Singh - Digital Marketing Professional"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -521,13 +469,13 @@ const Portfolio = () => {
               {/* Hero Content */}
               <div className="flex-1 text-center lg:text-left">
                 <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold mb-3 md:mb-6 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 bg-clip-text text-transparent animate-fade-in">
-                  Hi, I'm Kiran Srivastava
+                  Hi, I'm Aishwarya Singh
                 </h1>
                 <p className="text-lg md:text-3xl mb-3 md:mb-6 text-gray-700 dark:text-gray-200 animate-fade-in delay-300 font-semibold">
                   Digital Marketing Professional
                 </p>
                 <p className="text-sm md:text-lg mb-5 md:mb-8 text-gray-600 dark:text-gray-400 max-w-2xl mx-auto lg:mx-0 animate-fade-in delay-500 leading-relaxed">
-                  Creative and detail-oriented Digital Marketing Professional with hands-on experience in social media management, content strategy, Meta Ads, graphic design, WhatsApp marketing, e-commerce coordination, and website management.
+                  Motivated and detail-oriented Digital Marketing Professional with experience in lead generation, Meta Ads, Google Ads, SEO, content creation, graphic design, and social media marketing. Skilled in collecting and verifying business contact information, managing advertising campaigns, and creating engaging digital content that improves brand visibility and generates qualified leads.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center lg:justify-start animate-fade-in delay-700">
                   <button
@@ -538,7 +486,7 @@ const Portfolio = () => {
                     View Experience
                   </button>
                   <a
-                    href="/Kiran_Srivastava_Resume.pdf"
+                    href="/Aishwarya_Singh_Updated_Resume.pdf"
                     download
                     className="px-6 py-3 md:px-8 md:py-4 border-2 border-yellow-500 text-yellow-500 rounded-full hover:bg-yellow-500 hover:text-black transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 text-sm md:text-base"
                   >
@@ -562,11 +510,11 @@ const Portfolio = () => {
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               <div className="space-y-4 md:space-y-6">
                 <p className="text-sm md:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                  I'm <strong>Kiran Srivastava</strong>, a passionate Digital Marketing Professional skilled in social media strategy, content creation, SEO, Meta Ads, and graphic design. I execute engaging campaigns that boost online presence and visibility for brands.
+                  I'm <strong>Aishwarya Singh</strong>, a motivated and detail-oriented Digital Marketing Professional with experience in lead generation, Meta Ads, Google Ads, SEO, content creation, graphic design, and social media marketing.
                 </p>
 
                 <p className="text-sm md:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                  With experience at <strong>ORGALIFE</strong>, <strong>CHOUHAN HOUSING</strong>, <strong>GATE ACADEMY</strong>, and <strong>GENIQUE EDUCATION</strong>, I bring a unique blend of campaign execution and data-driven marketing skills.
+                  With experience at <strong>Mihusoft Technologies</strong>, <strong>Freelancing</strong>, and <strong>Shubham Bibave Technologies & Media</strong>, I bring a unique blend of lead generation, campaign execution and creative design skills.
                 </p>
 
                 <div className="space-y-4">
@@ -613,7 +561,7 @@ const Portfolio = () => {
                   <div className="w-full max-w-xs md:max-w-md rounded-2xl overflow-hidden shadow-2xl border-4 border-gradient-to-r from-yellow-400 to-yellow-600">
                     <img
                       src={kiranProfile}
-                      alt="Kiran Srivastava"
+                      alt="Aishwarya Singh"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -1071,8 +1019,8 @@ const Portfolio = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-sm md:text-lg mb-1 text-gray-900 dark:text-white">Email</h3>
-                        <a href="mailto:srivastavakirann012@gmail.com" className="text-xs md:text-base text-gray-600 dark:text-gray-300 hover:text-yellow-500 transition-colors">
-                          srivastavakirann012@gmail.com
+                        <a href="mailto:aishwaryasingh.digitalmarketer@gmail.com" className="text-xs md:text-base text-gray-600 dark:text-gray-300 hover:text-yellow-500 transition-colors">
+                          aishwaryasingh.digitalmarketer@gmail.com
                         </a>
                       </div>
                     </div>
@@ -1083,8 +1031,8 @@ const Portfolio = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-sm md:text-lg mb-1 text-gray-900 dark:text-white">WhatsApp</h3>
-                        <a href="https://wa.me/919340630254" target="_blank" rel="noopener noreferrer" className="text-xs md:text-base text-gray-600 dark:text-gray-300 hover:text-yellow-500 transition-colors">
-                          +91 934-063-0254
+                        <a href="https://wa.me/919555988163" target="_blank" rel="noopener noreferrer" className="text-xs md:text-base text-gray-600 dark:text-gray-300 hover:text-yellow-500 transition-colors">
+                          +91 955-598-8163
                         </a>
                       </div>
                     </div>
@@ -1098,7 +1046,7 @@ const Portfolio = () => {
                   <a href="https://github.com/deviljitu1" target="_blank" rel="noopener noreferrer" className="w-10 h-10 md:w-12 md:h-12 bg-gray-100 dark:bg-gray-900 text-gray-600 dark:text-gray-300 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-white dark:hover:text-black transition-all duration-300 hover:scale-110 shadow-md">
                     <Github size={18} />
                   </a>
-                  <a href="https://wa.me/919340630254" target="_blank" rel="noopener noreferrer" className="w-10 h-10 md:w-12 md:h-12 bg-gray-100 dark:bg-gray-900 text-gray-600 dark:text-gray-300 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-white dark:hover:text-black transition-all duration-300 hover:scale-110 shadow-md">
+                  <a href="https://wa.me/919555988163" target="_blank" rel="noopener noreferrer" className="w-10 h-10 md:w-12 md:h-12 bg-gray-100 dark:bg-gray-900 text-gray-600 dark:text-gray-300 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-white dark:hover:text-black transition-all duration-300 hover:scale-110 shadow-md">
                     <img src={whatsappIcon} alt="WhatsApp" className="w-6 h-6 md:w-8 md:h-8" />
                   </a>
                 </div>
@@ -1169,7 +1117,7 @@ const Portfolio = () => {
                 </a>
               </div>
               <p className="text-gray-600 dark:text-gray-400 mb-2">
-                © 2026 Kiran Srivastava. All rights reserved.
+                © 2026 Aishwarya Singh. All rights reserved.
               </p>
               <p className="text-sm text-gray-500 dark:text-gray-500">
                 Digital Marketing Professional | Building Digital Experiences
