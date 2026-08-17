@@ -884,40 +884,6 @@ const Portfolio = () => {
               </div>
             </div>
 
-            <div className="mb-10 md:mb-16">
-              <h3 className="text-2xl md:text-3xl font-bold mb-5 md:mb-8 text-center text-gray-900 dark:text-white">Project-Based Experience</h3>
-              <div className="grid md:grid-cols-2 gap-4 md:gap-8 max-w-5xl mx-auto">
-                {experiences.filter(e => e.category === 'project-based').map((exp, index) => (
-                  <div key={index} className={`p-5 md:p-8 rounded-2xl border-2 border-solid ${isDark ? 'border-gray-700 bg-gray-800 hover:border-yellow-500' : 'border-gray-200 bg-white hover:border-yellow-500'} transition-all duration-300 hover:shadow-lg`}>
-                    <h4 className="font-bold text-base md:text-xl mb-1.5 md:mb-2 text-gray-900 dark:text-white">{exp.title}</h4>
-                    <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mb-3 md:mb-4 leading-relaxed">{exp.description}</p>
-                    <div className="flex flex-wrap gap-2">
-                      {exp.tools.map(tool => (
-                        <span key={tool} className="px-3 py-1 bg-yellow-500 dark:bg-yellow-500/40 text-yellow-500 dark:text-yellow-500 text-xs rounded-full font-medium">{tool}</span>
-                      ))}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="mb-10 md:mb-16">
-              <h3 className="text-2xl md:text-3xl font-bold mb-5 md:mb-8 text-center text-gray-900 dark:text-white">Social Media Accounts Managed</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
-                {managedAccounts.map((account, index) => (
-                  <a
-                    key={index}
-                    href={account.url}
-                    target={account.url !== '#' ? "_blank" : undefined}
-                    rel={account.url !== '#' ? "noopener noreferrer" : undefined}
-                    className={`p-4 rounded-xl border-2 border-solid ${isDark ? 'border-gray-700 bg-gray-800 hover:border-yellow-500' : 'border-gray-200 bg-white hover:border-yellow-500'} transition-all duration-300 hover:shadow-lg flex items-center justify-between group ${account.url === '#' ? 'cursor-default' : 'cursor-pointer'}`}
-                  >
-                    <span className="font-semibold text-sm md:text-base text-gray-900 dark:text-white group-hover:text-yellow-500 transition-colors">{account.name}</span>
-                    {account.url !== '#' && <ExternalLink size={16} className="text-gray-400 group-hover:text-yellow-500 transition-colors flex-shrink-0 ml-2" />}
-                  </a>
-                ))}
-              </div>
-            </div>
 
             <div>
               <h3 className="text-2xl md:text-3xl font-bold mb-5 md:mb-8 text-center text-gray-900 dark:text-white">Education & Certifications</h3>
