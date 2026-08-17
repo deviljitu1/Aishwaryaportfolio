@@ -266,7 +266,6 @@ const Portfolio = () => {
       color: 'purple',
       subcategories: [
         { id: 'graphic-design', name: 'Graphic Design', icon: PenTool },
-        { id: 'social-media', name: 'Social Media Content', icon: Video },
         { id: 'paid-ads', name: 'Paid Advertising', icon: BarChart }
       ]
     }
@@ -296,68 +295,7 @@ const Portfolio = () => {
   const graphicCategories = Array.from(new Set(generatedProjects.map(p => p.graphicCategory))).filter(Boolean) as string[];
 
   const projects: Project[] = [
-    {
-      title: "Orgalife Food Reel 1",
-      description: "Social media reel for Orgalife Food.",
-      tools: ["Instagram", "Video Editing", "Content Creation"],
-      liveLink: "https://www.instagram.com/reel/DSFMZfYDKY1/",
-      category: "digital-marketing",
-      subCategory: "social-media",
-      mediaType: "iframe",
-      iframeSrc: "https://www.instagram.com/reel/DSFMZfYDKY1/embed"
-    },
-    {
-      title: "Orgalife Food Reel 2",
-      description: "Social media reel for Orgalife Food.",
-      tools: ["Instagram", "Video Editing", "Content Creation"],
-      liveLink: "https://www.instagram.com/reel/DTHnQl5DAyi/",
-      category: "digital-marketing",
-      subCategory: "social-media",
-      mediaType: "iframe",
-      iframeSrc: "https://www.instagram.com/reel/DTHnQl5DAyi/embed"
-    },
-    {
-      title: "Orgalife Food Reel 3",
-      description: "Social media reel for Orgalife Food.",
-      tools: ["Instagram", "Video Editing", "Content Creation"],
-      liveLink: "https://www.instagram.com/reel/DO8fqHmjsb6/",
-      category: "digital-marketing",
-      subCategory: "social-media",
-      mediaType: "iframe",
-      iframeSrc: "https://www.instagram.com/reel/DO8fqHmjsb6/embed"
-    },
-    {
-      title: "Digital Pallavi Reel",
-      description: "Social media reel for Digital Pallavi.",
-      tools: ["Instagram", "Video Editing", "Content Creation"],
-      liveLink: "https://www.instagram.com/reel/DOOJbE2CaJr/",
-      category: "digital-marketing",
-      subCategory: "social-media",
-      mediaType: "iframe",
-      iframeSrc: "https://www.instagram.com/reel/DOOJbE2CaJr/embed"
-    },
-    {
-      title: "Orgalife Food Reel 4",
-      description: "Social media reel for Orgalife Food.",
-      tools: ["Instagram", "Video Editing", "Content Creation"],
-      liveLink: "https://www.instagram.com/reel/DLL-6OwxKpi/",
-      category: "digital-marketing",
-      subCategory: "social-media",
-      mediaType: "iframe",
-      iframeSrc: "https://www.instagram.com/reel/DLL-6OwxKpi/embed"
-    },
-    {
-      title: "Orgalife Food Reel 5",
-      description: "Social media reel for Orgalife Food.",
-      tools: ["Instagram", "Video Editing", "Content Creation"],
-      liveLink: "https://www.instagram.com/reel/DLo8Fr0TdBL/",
-      category: "digital-marketing",
-      subCategory: "social-media",
-      mediaType: "iframe",
-      iframeSrc: "https://www.instagram.com/reel/DLo8Fr0TdBL/embed"
-    },
     ...generatedProjects,
-
   ];
 
   const experiences = [
