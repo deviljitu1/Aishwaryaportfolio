@@ -406,7 +406,7 @@ const Portfolio = () => {
 
               {/* Hero Content */}
               <div className="flex-1 text-center lg:text-left">
-                <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold mb-3 md:mb-6 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 bg-clip-text text-transparent animate-fade-in">
+                <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-3 md:mb-6 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 bg-clip-text text-transparent animate-fade-in py-2 leading-tight">
                   Hi, I'm Aishwarya Singh
                 </h1>
                 <p className="text-lg md:text-3xl mb-3 md:mb-6 text-gray-700 dark:text-gray-200 animate-fade-in delay-300 font-semibold">
