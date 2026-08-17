@@ -33,7 +33,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme, activeSection, scr
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="font-bold text-xl bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 bg-clip-text text-transparent">
-            Kiran Srivastava
+            Aishwarya Singh
           </Link>
 
           {/* Desktop Navigation */}
